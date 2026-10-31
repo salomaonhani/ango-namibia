@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+﻿import { useEffect, useMemo, useState } from 'react'
 import {
   ArrowDownRight,
   ArrowRight,
@@ -309,8 +309,6 @@ useEffect(() => {
     </div>
     <div className="hero-metrics"><div><b>01</b><span>ESCOLHE</span></div><i /><div><b>02</b><span>CONSULTA</span></div><i /><div><b>03</b><span>CONSISTÊNCIA</span></div></div>
   </div>
-  <div className="hero-video-label"><span className="video-status-dot" /> ANGO NAMÍBIA · MOVE WITH INTENTION</div>
-  <a className="scroll-cue" href="#loja"><span>DESCOBRE A LOJA</span><ChevronDown size={16} /></a>
 </section>
 
         <section className='ango-values-band' aria-label='Valores ANGO NAMÍBIA'><article className='ango-value'><span className='ango-value-number'>01</span><div><h3>ESCOLHAS INFORMADAS</h3><p>Conhece o produto antes de escolher.</p></div></article><article className='ango-value'><span className='ango-value-number'>02</span><div><h3>QUALIDADE E CLAREZA</h3><p>Consulta as características dos produtos.</p></div></article><article className='ango-value'><span className='ango-value-number'>03</span><div><h3>FOCO NA CONSISTÊNCIA</h3><p>Constrói uma rotina consciente.</p></div></article></section>
