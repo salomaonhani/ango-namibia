@@ -1,4 +1,4 @@
-:root { --ink: #080a08; --panel: #111411; --panel-soft: #171b16; --lime: #c6ff39; --lime-deep: #9ecb20; --white: #f2f3ed; --muted: #969d91; --border: rgba(242,243,237,.13); --display: 'Barlow Condensed', Impact, sans-serif; }
+﻿:root { --ink: #080a08; --panel: #111411; --panel-soft: #171b16; --lime: #c6ff39; --lime-deep: #9ecb20; --white: #f2f3ed; --muted: #969d91; --border: rgba(242,243,237,.13); --display: 'Barlow Condensed', Impact, sans-serif; }
 #root { min-height: 100vh; }
 .site-shell { min-height: 100vh; overflow: hidden; background: var(--ink); color: var(--white); }
 .announcement { display:flex; justify-content:center; align-items:center; gap:10px; min-height:30px; padding:6px 14px; background:var(--lime); color:#0a0c08; font-size:9px; letter-spacing:1.5px; font-weight:800; text-align:center; }
@@ -1043,3 +1043,29 @@
 
 /* MENOS RUIDO MAIS INTENCAO CURSIVA */
 #root .manifesto h2,#root .manifesto h2 em{font-family:Dancing Script,Segoe Script,cursive!important;font-size:clamp(44px,6vw,82px)!important;line-height:1.05!important;letter-spacing:-.02em!important;text-transform:none!important;font-weight:700!important}#root .manifesto h2 em{color:var(--lime)!important;font-style:normal!important}@media(max-width:760px){#root .manifesto h2,#root .manifesto h2 em{font-size:clamp(42px,11vw,64px)!important}}
+
+
+
+
+/* HERO RESPONSIVO - BOTOES E INDICADORES */
+@media (max-width: 760px) {
+  .hero-video-copy .hero-actions-row {
+    margin-top: clamp(24px, 6vh, 48px) !important;
+    gap: clamp(12px, 3vw, 20px) !important;
+    flex-wrap: wrap;
+  }
+  .hero-video-copy .hero-metrics {
+    margin-top: clamp(24px, 5vh, 42px) !important;
+    gap: clamp(12px, 3.5vw, 21px) !important;
+    flex-wrap: wrap;
+  }
+  .hero-video-copy .hero-actions-row .button {
+    max-width: 100%;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 380px) {
+  .hero-video-copy .hero-actions-row { gap: 12px !important; }
+  .hero-video-copy .hero-metrics { gap: 11px !important; }
+}
+
