@@ -1,0 +1,4 @@
+Esta pasta recebe automaticamente os frames da animação inicial.
+Usa o script scripts/importar-imagens.ps1 para importar as imagens de:
+C:\Users\DELL\Downloads\creatina
+O script copia imagens numeradas para esta pasta e cria frames.json.

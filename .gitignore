@@ -1,0 +1,62 @@
+node_modules/
+dist/
+data/*.json
+data/*.tmp
+public/uploads/*
+!public/uploads/LEIA-ME.txt
+.env
+*.log
+
+# Proteccao adicional para publicacao
+.env.*
+!.env.example
+backups*/
+*.bak
+
+# Ficheiros locais de ligacao e sessao
+.neon
+sessao-neon.xml
+
+# Seguranca: nunca publicar dados locais ou credenciais
+.env
+.env.*
+!.env.example
+.neon
+sessao-neon.xml
+data/
+.vscode/
+.agents/
+backups*/
+*.bak
+*.log
+
+# Ficheiros carregados localmente
+public/uploads/*
+!public/uploads/LEIA-ME.txt
+
+# Scripts auxiliares de alteracao e migracao local
+/adicionar-interface-whatsapp.ps1
+/ajustar-visual-ango.cjs
+/aplicar-ango-final.js
+/aplicar-catalogo-banners.cjs
+/aplicar-identidade.js
+/aplicar-video.ps1
+/corrigir-identidade.js
+/corrigir-loadstore.ps1
+/executar-migracao.mjs
+/importar-dados-neon.mjs
+/ligar-whatsapp.cjs
+/proteger-admin.cjs
+/testar-neon.mjs
+/verificar-dados-neon.mjs
+/verificar-esquema-neon.mjs
+/scripts/
+
+# Proteger todos os uploads locais
+/public/uploads/
+
+# Copias de seguranca e ficheiros locais
+*.backup*
+/iniciar-creatina.cmd
+/item.id
+/adicionar-rotas.cjs
