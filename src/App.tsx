@@ -304,10 +304,7 @@ useEffect(() => {
     <h1>ANGO<br /><em>NAMÍBIA</em></h1>
     <p className="hero-description">Suplementação desportiva com informação clara, escolhas simples e foco na consistência — treino após treino.</p>
     <div className="hero-actions-row">
-      <a className="button button-lime" href="#loja">EXPLORAR PRODUTOS <ArrowRight size={18} /></a>
-      <a className="text-link" href="#qualidade">Conhecer a abordagem <ArrowDownRight size={17} /></a>
     </div>
-    <div className="hero-metrics"><div><b>01</b><span>ESCOLHE</span></div><i /><div><b>02</b><span>CONSULTA</span></div><i /><div><b>03</b><span>CONSISTÊNCIA</span></div></div>
   </div>
 </section>
 
