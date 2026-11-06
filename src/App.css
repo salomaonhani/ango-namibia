@@ -428,14 +428,14 @@
 }
 
 
-/* ANGONAMIBIA TRANSPARENT HEADER AND LARGE HERO */
+/* ARTFIT TRANSPARENT HEADER AND LARGE HERO */
 .site-header{position:absolute!important;top:30px;left:0;right:0;width:100%;background:rgba(0,0,0,.12)!important;border-bottom:1px solid rgba(255,255,255,.10)!important;backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px);z-index:30}
 .brand-name{font-size:28px!important;line-height:.9!important}
 .hero.hero-video-section .hero-copy h1{font-size:clamp(68px,11vw,150px)!important;line-height:.82!important;letter-spacing:-.045em!important}
 @media(max-width:760px){.site-header{top:30px;height:70px;padding:0 18px;background:rgba(0,0,0,.12)!important}.brand-name{font-size:20px!important}.hero.hero-video-section .hero-copy h1{font-size:clamp(56px,14vw,88px)!important}}
 
 
-/* ANGO NAMIBIA - MANIFESTO PREMIUM PRETO */
+/* ARTFIT - MANIFESTO PREMIUM PRETO */
 .manifesto{background:radial-gradient(ellipse at 78% 48%,rgba(198,255,57,.07),transparent 42%),linear-gradient(135deg,#080a08 0%,#10130e 55%,#080a08 100%)!important;color:#f2f3ed!important;border-top:1px solid rgba(255,255,255,.09);border-bottom:1px solid rgba(255,255,255,.09)}
 .manifesto-pattern{opacity:.035!important;background-image:linear-gradient(rgba(255,255,255,.18) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.18) 1px,transparent 1px)!important}
 .manifesto-number{color:rgba(242,243,237,.36)!important}
@@ -451,11 +451,11 @@
 .graphic-word{color:#aeb5a8!important}
 
 
-/* ANGO NAMIBIA - IDENTIDADE CURSIVA FINAL */
+/* ARTFIT - IDENTIDADE CURSIVA FINAL */
 .brand-name{font-family:Dancing Script,Segoe Script,cursive!important;font-size:34px!important;font-weight:700!important;letter-spacing:0!important;line-height:.95!important}.brand-name>span{font-family:inherit!important;color:var(--lime)!important}.brand-name small{font-family:Inter,sans-serif!important;font-size:7px!important;letter-spacing:1.5px!important}.hero-video-copy h1,.hero-video-copy h1 em{font-family:Dancing Script,Segoe Script,cursive!important;font-size:clamp(76px,10vw,142px)!important;line-height:.95!important;letter-spacing:-.02em!important;text-transform:none!important}.hero-video-copy h1 em{color:var(--lime)!important;font-style:normal!important}.ticker,.ticker-track{display:none!important;animation:none!important}.ango-values-band{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));background:#090a08;color:#f4f4ef;padding:34px 7.2%;border-top:1px solid rgba(255,255,255,.1);border-bottom:1px solid rgba(255,255,255,.1)}.ango-value{display:flex;gap:16px;padding:8px 22px;border-right:1px solid rgba(255,255,255,.12)}.ango-value:first-child{padding-left:0}.ango-value:last-child{border-right:0}.ango-value-number{color:var(--lime);font-size:24px}.ango-value h3{font-size:11px;letter-spacing:1px;margin:0 0 8px}.ango-value p{color:#a7ada1;font-size:12px;line-height:1.7;margin:0}@media(max-width:760px){.brand-name{font-size:24px!important}.hero-video-copy h1,.hero-video-copy h1 em{font-size:clamp(58px,13vw,88px)!important}.ango-values-band{grid-template-columns:1fr;padding:16px 22px}.ango-value,.ango-value:first-child,.ango-value:last-child{padding:17px 0;border-right:0;border-bottom:1px solid rgba(255,255,255,.1)}.ango-value:last-child{border-bottom:0}}
 
 
-/* ANGO NAMÍBIA — BANNERS DE PRODUTO RESPONSIVOS */
+/* ARTFIT — BANNERS DE PRODUTO RESPONSIVOS */
 .category-tabs button {
   border-radius: 999px !important;
   padding: 11px 18px;
@@ -782,7 +782,7 @@
 .ticker,.ticker-track,.ticker-track span,[class*="marquee"],[class*="ticker"]{display:none!important;visibility:hidden!important;animation:none!important;height:0!important;min-height:0!important;margin:0!important;padding:0!important;border:0!important;}
 
 
-/* ANGO NAMÍBIA — IDENTIDADE TIPOGRÁFICA E RESPONSIVA */
+/* ARTFIT — IDENTIDADE TIPOGRÁFICA E RESPONSIVA */
 
 /* Todo o texto normal usa Arial. */
 #root * {
@@ -832,7 +832,7 @@
   z-index: 30 !important;
 }
 
-/* Reduz um pouco o título ANGO NAMÍBIA da página inicial. */
+/* Reduz um pouco o título ARTFIT da página inicial. */
 #root .hero-video-copy h1,
 #root .hero-video-copy h1 em {
   font-size: clamp(62px, 8vw, 112px) !important;

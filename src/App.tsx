@@ -1,4 +1,4 @@
-﻿import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import {
   ArrowDownRight,
   ArrowRight,
@@ -210,7 +210,7 @@ useEffect(() => {
     );
 
     const message = [
-      'NOVA ENCOMENDA — ANGO NAMÍBIA',
+      'NOVA ENCOMENDA — ARTFIT',
       '',
       'Cliente: ' + customerName.trim(),
       'Telefone/WhatsApp do cliente: ' + phone.trim(),
@@ -276,9 +276,9 @@ useEffect(() => {
     <div className="site-shell">
 
       <header className="site-header">
-        <a className="brand" href="#inicio" aria-label="Ango Namíbia — início">
+        <a className="brand" href="#inicio" aria-label="ARTFIT — início">
           <span className="brand-mark"><Dumbbell size={22} strokeWidth={2.5} /></span>
-          <span className="brand-name">ANGO <span>NAMÍBIA</span><small>SUPLEMENTAÇÃO DESPORTIVA</small></span>
+          <span className="brand-name">ARTFIT<small>SUPLEMENTAÇÃO DESPORTIVA</small></span>
         </a>
         <nav className={`main-nav ${mobileOpen ? 'is-open' : ''}`}>
           <a href="#loja" onClick={() => setMobileOpen(false)}>Loja</a>
@@ -301,14 +301,14 @@ useEffect(() => {
   <div className="hero-video-overlay" aria-hidden="true" />
   <div className="hero-copy hero-video-copy">
     <div className="eyebrow"><span /> PERFORMANCE COM INTENÇÃO</div>
-    <h1>ANGO<br /><em>NAMÍBIA</em></h1>
+    <h1>ARTFIT</h1>
     <p className="hero-description">Suplementação desportiva com informação clara, escolhas simples e foco na consistência — treino após treino.</p>
     <div className="hero-actions-row">
     </div>
   </div>
 </section>
 
-        <section className='ango-values-band' aria-label='Valores ANGO NAMÍBIA'><article className='ango-value'><span className='ango-value-number'>01</span><div><h3>ESCOLHAS INFORMADAS</h3><p>Conhece o produto antes de escolher.</p></div></article><article className='ango-value'><span className='ango-value-number'>02</span><div><h3>QUALIDADE E CLAREZA</h3><p>Consulta as características dos produtos.</p></div></article><article className='ango-value'><span className='ango-value-number'>03</span><div><h3>FOCO NA CONSISTÊNCIA</h3><p>Constrói uma rotina consciente.</p></div></article></section>
+        <section className='ango-values-band' aria-label='Valores ARTFIT'><article className='ango-value'><span className='ango-value-number'>01</span><div><h3>ESCOLHAS INFORMADAS</h3><p>Conhece o produto antes de escolher.</p></div></article><article className='ango-value'><span className='ango-value-number'>02</span><div><h3>QUALIDADE E CLAREZA</h3><p>Consulta as características dos produtos.</p></div></article><article className='ango-value'><span className='ango-value-number'>03</span><div><h3>FOCO NA CONSISTÊNCIA</h3><p>Constrói uma rotina consciente.</p></div></article></section>
 
         <section className="shop-section section-wrap" id="loja">
           <div className="section-topline"><span className="eyebrow"><span /> CATÁLOGO</span><span className="section-index">01 / PRODUTOS</span></div>
@@ -339,7 +339,7 @@ useEffect(() => {
               : <span className="product-banner-placeholder">
                   <Dumbbell size={35} />
                   <b>{product.category.toUpperCase()}</b>
-                  <small>ANGO NAMÍBIA</small>
+                  <small>ARTFIT</small>
                 </span>
             }
             <span className="product-banner-shade" />
@@ -354,7 +354,7 @@ useEffect(() => {
 
           <span className="product-banner-copy">
             <span className="product-banner-index">
-              {String(index + 1).padStart(2, '0')} / ANGO NAMÍBIA
+              {String(index + 1).padStart(2, '0')} / ARTFIT
             </span>
             <strong>{product.name}</strong>
             <span className="product-banner-discover">
@@ -403,7 +403,7 @@ useEffect(() => {
         </section>
 
         <section className="manifesto" id="qualidade"><div className="manifesto-pattern" /><div className="manifesto-number">CL<span> / 02</span></div><div className="manifesto-content"><span className="eyebrow"><span /> A NOSSA ABORDAGEM</span><h2>MENOS RUÍDO.<br /><em>MAIS INTENÇÃO.</em></h2><p>A suplementação deve fazer parte de uma rotina bem pensada — não substituir uma alimentação equilibrada, treino adequado, hidratação e descanso. Consulta sempre o rótulo e escolhe informação em que confias.</p><a className="button button-outline" href="#faq">LER PERGUNTAS FREQUENTES <ArrowRight size={17} /></a></div><div className="manifesto-graphic"><div className="graphic-circle circle-a" /><div className="graphic-circle circle-b" />
-<div className="manifesto-emblem" aria-label="Símbolo ANGO NAMÍBIA">
+<div className="manifesto-emblem" aria-label="Símbolo ARTFIT">
   <span className="emblem-ring emblem-ring-one" />
   <span className="emblem-ring emblem-ring-two" />
   <span className="emblem-ring emblem-ring-three" />
@@ -421,7 +421,7 @@ useEffect(() => {
         ].map(([question, answer], index) => <div className={`faq-item ${faqOpen === index ? 'open' : ''}`} key={question}><button onClick={() => setFaqOpen(faqOpen === index ? null : index)} aria-expanded={faqOpen === index}><span>{question}</span><Plus size={18} /></button>{faqOpen === index && <p>{answer}</p>}</div>)}</div></div></section>
       </main>
 
-      <footer className="site-footer"><a className="brand footer-brand" href="#inicio"><span className="brand-mark"><Dumbbell size={21} /></span><span className="brand-name">ANGO <span>NAMÍBIA</span><small>SUPLEMENTAÇÃO DESPORTIVA</small></span></a><span className="footer-disclaimer">Informação geral. Consulta os rótulos e procura orientação profissional quando necessário.</span><span className="footer-copy">© {new Date().getFullYear()} ANGO NAMÍBIA · SUPLEMENTAÇÃO DESPORTIVA</span></footer>
+      <footer className="site-footer"><a className="brand footer-brand" href="#inicio"><span className="brand-mark"><Dumbbell size={21} /></span><span className="brand-name">ARTFIT<small>SUPLEMENTAÇÃO DESPORTIVA</small></span></a><span className="footer-disclaimer">Informação geral. Consulta os rótulos e procura orientação profissional quando necessário.</span><span className="footer-copy">© {new Date().getFullYear()} ARTFIT · SUPLEMENTAÇÃO DESPORTIVA</span></footer>
 
       {cartOpen && <div className="overlay" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setCartOpen(false) }}><aside className="cart-drawer" aria-label="Carrinho"><div className="drawer-head"><div><span className="eyebrow">A TUA SELEÇÃO</span><h2>CARRINHO <em>({cartCount})</em></h2></div><button className="icon-button" onClick={() => setCartOpen(false)} aria-label="Fechar carrinho"><X /></button></div>{cart.length === 0 ? <div className="empty-cart"><ShoppingBag size={35} /><h3>AINDA VAZIO.</h3><p>Explora os produtos e adiciona os artigos que procuras.</p><button className="button button-lime" onClick={() => setCartOpen(false)}>VOLTAR À LOJA <ArrowRight size={16} /></button></div> : <><div className="cart-lines">{cart.map((line) => <article className="cart-line" key={line.product.id}><div className="cart-line-image">{line.product.image ? <img src={line.product.image} alt="" /> : <Dumbbell size={28} />}</div><div className="cart-line-info"><b>{line.product.name}</b><span>{money(line.product.price)}</span><div className="quantity-control"><button onClick={() => updateQuantity(line.product.id, -1)} aria-label="Diminuir"><Minus size={13} /></button><span>{line.quantity}</span><button onClick={() => updateQuantity(line.product.id, 1)} aria-label="Aumentar"><Plus size={13} /></button></div></div><strong>{money(line.product.price * line.quantity)}</strong></article>)}</div><div className="cart-summary"><div><span>Subtotal</span><b>{money(subtotal)}</b></div><p>Entrega e pagamento serão confirmados pela equipa antes de finalizar a encomenda.</p><button className="button button-lime checkout-button" onClick={() => { setCheckoutOpen(true); setCartOpen(false) }}>CONTINUAR PARA ENCOMENDA <ArrowRight size={17} /></button></div></>}</aside></div>}
 

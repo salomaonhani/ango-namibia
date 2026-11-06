@@ -1,0 +1,22 @@
+
+{
+  "id": "/",
+  "name": "ARTFIT",
+  "short_name": "ARTFIT",
+  "description": "ARTFIT — Nutrição e desempenho desportivo.",
+  "lang": "pt-AO",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080a08",
+  "theme_color": "#080a08",
+  "icons": [
+    {
+      "src": "/artfit-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
